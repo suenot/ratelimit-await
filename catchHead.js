@@ -1,4 +1,4 @@
-var {sleep} = require('@kupi/sleep')
+let sleep = (ms) => new Promise (resolve => setTimeout (resolve, ms))
 
 const catchHead = async function(rateLimit, stock) {
   // console.log('CH Start')
