@@ -1,9 +1,6 @@
 {
-  "name": "@kupi/catchHead",
+  "name": "ratelimit-await",
   "version": "0.0.1",
   "private": true,
-  "main": "catchHead",
-  "devDependencies": {
-    "@kupi/sleep": "*"
-  }
+  "main": "catchHead"
 }
